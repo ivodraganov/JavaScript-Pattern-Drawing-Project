@@ -1,5 +1,5 @@
 # JavaScript-Pattern-Drawing-Project
-First school project of JavaScript using loops, conditional statements, and user input. <br>
+First school project of JavaScript using loops, conditional statements, and user input and allow user to save patterns in text file. <br>
 To run this project you need to to install prompt-sync <br><br>
 <code> npm install prompt-sync </code> <br><br>
 📝 Project Overview <br><br>
