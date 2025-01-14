@@ -157,8 +157,16 @@ while (true) {
             break;
     }
 
+
+    // Log file
+    const answer = prompt("❓ Do you want to save pattern in text file? (y/n)".toLowerCase());
+    if (answer === "y") {
+        const fs = require("fs");
+        fs.writeFileSync('./pattern.txt',str);
+        console.log("✅ Saved!");
+    }
     // Step 5: Optional - Allow the user to restart or exit
-    const restartChoice = prompt("Do you want to restart the program? (y/n)").toLowerCase();
+    const restartChoice = prompt("❓ Do you want to restart the program? (y/n)").toLowerCase();
     if (restartChoice !== "y") {
         console.log("👋 Thanks for using the JavaScript Pattern Drawing Program! Goodbye!");
         break;
